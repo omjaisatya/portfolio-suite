@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { CustomProvider, Container } from "rsuite";
+import "rsuite/dist/rsuite.min.css";
+import Navi from "./components/Navi";
+import "./App.css";
+import EduSkills from "./components/EduSkills";
+import Projects from "./components/Projects";
+import ContactMenu from "./components/Contacts/ContactMenu";
+import HomeMenu from "./components/HomeMenu";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CustomProvider theme="light">
+      <Container className="app">
+        <header className="app-header">
+          <Navi />
+          <HomeMenu />
+          <Projects />
+          <EduSkills />
+          <ContactMenu />
+          <Footer />
+        </header>
+      </Container>
+    </CustomProvider>
   );
 }
 
