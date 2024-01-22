@@ -25,8 +25,8 @@ export const SocialIcons = () => (
       justifyContent: "space-around",
       display: "flex",
       borderRadius: "10px",
-      boxShadow: "0 0 10px 0 red",
-      margin: "10px",
+      boxShadow: "0 0 10px 0 khaki",
+      margin: "10px 0",
       padding: "3px 0",
     }}
     className="icon-example-list"

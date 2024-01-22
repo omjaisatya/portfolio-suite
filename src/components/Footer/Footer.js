@@ -36,7 +36,7 @@ const FooterLogo = () => {
 
 const FooterLink = () => (
   <div>
-    <h6>Important Links</h6>
+    <h6 style={{ color: "black" }}>Important Links</h6>
     <div>
       <button style={{ backgroundColor: "transparent" }}>
         <a
@@ -57,7 +57,7 @@ const FooterLink = () => (
 );
 
 const FooterCopy = () => (
-  <small style={{ display: "flex", justifyContent: "center" }}>
+  <small style={{ display: "flex", justifyContent: "center", color: "black" }}>
     © 2024 - Built with React by{" - "}
     <a
       href="https://www.linkedin.com/in/satya-prakash451/"

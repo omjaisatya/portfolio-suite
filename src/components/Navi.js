@@ -8,6 +8,7 @@ import Skills from "./Skills";
 // import Resume, { ResumeButton } from "./Resume/Resume";
 import ResumeModal from "./Resume/ResumeModal";
 import { EmailIcon } from "./Contacts/SocialMedia";
+import Theme from "./Theme/Theme";
 
 const Navi = () => (
   <Container>
@@ -43,9 +44,11 @@ const Navi = () => (
           </Nav.Menu>
         </Nav.Menu>
       </Nav>
-      {/* <Nav pullRight>
-      <Nav.Item icon={<CogIcon />}>Settings</Nav.Item>
-    </Nav> */}
+      <Nav pullRight>
+        <Nav.Item>
+          <Theme />
+        </Nav.Item>
+      </Nav>
     </Navbar>
   </Container>
 );

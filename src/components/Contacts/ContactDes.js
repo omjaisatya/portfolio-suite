@@ -7,7 +7,7 @@ function ContactDes() {
     <div
       style={{
         backgroundColor: "darksalmon",
-        padding: "20px",
+        padding: "19px",
         borderRadius: "10px",
       }}
     >
