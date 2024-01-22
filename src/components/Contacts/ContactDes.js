@@ -22,7 +22,11 @@ function ContactDes() {
         Create something together &#x1F91F;
       </h6>
       <p
-        style={{ fontFamily: "cursive", textAlign: "center", margin: "10px 0" }}
+        style={{
+          fontFamily: "'Rajdhani', sans-serif",
+          textAlign: "center",
+          margin: "10px 0",
+        }}
       >
         Hey! We are looking forward <br /> to start a project with you{" "}
       </p>

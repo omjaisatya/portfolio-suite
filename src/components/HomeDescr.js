@@ -11,7 +11,7 @@ const HomeDescr = () => (
       Hello I&apos;m <br />
       <span
         // className="tracking-in-expand"
-        style={{ color: "darksalmon", fontFamily: "cursive" }}
+        style={{ color: "darksalmon", fontFamily: "'Rajdhani', sans-serif" }}
       >
         Satya Prakash
       </span>

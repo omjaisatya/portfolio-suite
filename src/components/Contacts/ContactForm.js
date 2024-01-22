@@ -58,7 +58,7 @@ const ContactForm = () => {
     <div
       style={{
         backgroundColor: "floralwhite",
-        padding: "15px",
+        padding: "13px",
         borderRadius: "10px",
       }}
     >

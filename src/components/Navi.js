@@ -15,7 +15,7 @@ const Navi = () => (
       <Navbar.Brand href="#">
         <span
           className="navbar-brand"
-          style={{ fontFamily: "cursive", fontWeight: "bold" }}
+          style={{ fontFamily: "'Rajdhani', sans-serif", fontWeight: "bold" }}
         >
           SATYA
         </span>
