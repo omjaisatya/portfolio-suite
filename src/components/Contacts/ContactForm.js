@@ -23,7 +23,12 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .send("service_4wl3gvb", "template_7m6zao7", values, "oZQtB3qYjeAPSX0NS")
+      .send(
+        `${process.env.REACT_APP_SERVICE_ID}`,
+        `${process.env.REACT_APP_TEMPLATE_ID}`,
+        values,
+        `${process.env.REACT_APP_PUBLIC_KEY}`
+      )
       .then(
         (response) => {
           console.log("SUCCESS!", response);
