@@ -112,7 +112,7 @@ const ModelContactPhone = () => {
         </Modal.Header>
         <Modal.Body>
           <p>
-            <a href="tel:+917255804817">+91-7255804817</a>
+            <a href="tel:+9172******17">+91-72******17</a>
           </p>
         </Modal.Body>
         <Modal.Footer>
