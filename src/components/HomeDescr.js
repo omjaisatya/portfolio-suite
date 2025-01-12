@@ -17,7 +17,10 @@ const HomeDescr = () => (
       </span>
     </h3>
     <p>
-      I&apos;m a <b style={{ color: "khaki" }}>Front End Developer</b>{" "}
+      I&apos;m a{" "}
+      <b style={{ color: "ButtonText", fontWeight: "bold" }}>
+        Front End / Backend Developer
+      </b>{" "}
     </p>
     <p>
       I am graduate student of Computer Science and Engineering from Maharshi

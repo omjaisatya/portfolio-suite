@@ -14,7 +14,7 @@ function ContactDes() {
       <h6
         style={{
           display: "flex",
-          // justifyContent: "center",
+          justifyContent: "center",
           padding: "8px 0",
           color: "#fff",
         }}
@@ -24,12 +24,14 @@ function ContactDes() {
       <p
         style={{
           fontFamily: "'Rajdhani', sans-serif",
-          // textAlign: "center",
+          textAlign: "center",
           margin: "10px 0",
         }}
       >
         Hey! We are looking forward <br /> to start a project with you{" "}
       </p>
+      <h6 className={styles.bootIcon.telephone}>Mobile Number</h6>
+      <p style={{ color: "khaki" }}>+919876543210</p>
       <h6 className={styles.bootIcon.location}>Location</h6>
       <p style={{ color: "khaki" }}>New Delhi, India 110062</p>
       <SocialMedia />
