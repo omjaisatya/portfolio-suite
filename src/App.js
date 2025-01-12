@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import ContactMenu from "./components/Contacts/ContactMenu";
 import HomeMenu from "./components/HomeMenu";
 import Footer from "./components/Footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <EduSkills />
         <ContactMenu />
         <Footer />
+        <SpeedInsights />
       </header>
     </Container>
   );
