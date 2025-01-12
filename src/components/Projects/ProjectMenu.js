@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectListsOne, {
+  ProjectListsFive,
+  ProjectListsFour,
   ProjectListsThree,
   ProjectListsTwo,
 } from "./ProjectLists";
@@ -18,6 +20,8 @@ function ProjectMenu() {
       <ProjectListsOne />
       <ProjectListsTwo />
       <ProjectListsThree />
+      <ProjectListsFour />
+      <ProjectListsFive />
     </div>
   );
 }

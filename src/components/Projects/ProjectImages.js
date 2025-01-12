@@ -2,6 +2,7 @@ import React from "react";
 import PjctImgOne from "../img/Project1.png";
 import PjctImgTwo from "../img/Project2.png";
 import PjctImgThree from "../img/Project3.png";
+import DefaultImg from "../img/photo.png";
 
 function ProjectImagesOne() {
   return (
@@ -59,6 +60,25 @@ export function ProjectImagesThree() {
   );
 }
 
+export function DefaultImages() {
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <img
+        src={projectDefaultImg.image.src.DefaultImg}
+        alt={projectDefaultImg.image.alt}
+        height={projectOneImg.image.height}
+        width={projectOneImg.image.width}
+        style={{ maxWidth: "100%", height: "150px" }}
+      />
+    </div>
+  );
+}
+
 const projectOneImg = {
   image: {
     src: { PjctImgOne },
@@ -78,6 +98,12 @@ const projectThreeImg = {
   image: {
     src: { PjctImgThree },
     alt: "ToDo List",
+  },
+};
+const projectDefaultImg = {
+  image: {
+    src: { DefaultImg },
+    alt: "Default IMG",
   },
 };
 

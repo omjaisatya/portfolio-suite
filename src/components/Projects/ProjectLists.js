@@ -1,10 +1,13 @@
 import React from "react";
 import { FlexboxGrid } from "rsuite";
 import ProjectDetailsOne, {
+  ProjectDetailsFive,
+  ProjectDetailsFour,
   ProjectDetailsThree,
   ProjectDetailsTwo,
 } from "./ProjectDetails";
 import ProjectImagesOne, {
+  DefaultImages,
   ProjectImagesThree,
   ProjectImagesTwo,
 } from "./ProjectImages";
@@ -48,6 +51,36 @@ export function ProjectListsThree() {
         </FlexboxGrid.Item>
         <FlexboxGrid.Item colspan={12}>
           <ProjectImagesThree />
+        </FlexboxGrid.Item>
+      </FlexboxGrid>
+    </div>
+  );
+}
+
+export function ProjectListsFour() {
+  return (
+    <div className="show-grid">
+      <FlexboxGrid>
+        <FlexboxGrid.Item colspan={12}>
+          <ProjectDetailsFour />
+        </FlexboxGrid.Item>
+        <FlexboxGrid.Item colspan={12}>
+          <DefaultImages />
+        </FlexboxGrid.Item>
+      </FlexboxGrid>
+    </div>
+  );
+}
+
+export function ProjectListsFive() {
+  return (
+    <div className="show-grid">
+      <FlexboxGrid>
+        <FlexboxGrid.Item colspan={12}>
+          <ProjectDetailsFive />
+        </FlexboxGrid.Item>
+        <FlexboxGrid.Item colspan={12}>
+          <DefaultImages />
         </FlexboxGrid.Item>
       </FlexboxGrid>
     </div>
